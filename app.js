@@ -8,12 +8,7 @@ const PORT = process.env.PORT || 3000;
 let editUSER = {};
 let Users = [];
 //POSTGRES//
-
 const Pool = require('pg').Pool;
-// function beginTable() {
-//     pool.query(`CREATE TABLE users (id SERIAL PRIMARY KEY, userid VARCHAR(255) NOT NULL, email VARCHAR(100) NOT NULL, firstname VARCHAR(100) NOT NULL, lastname VARCHAR(100) NOT NULL, age integer NOT NULL);`)
-// }
-// beginTable();
 const connectionString = process.env.DATABASE_URL;
 console.log(`DATABASE_URL: ${connectionString}`);
 const pool = new Pool({
