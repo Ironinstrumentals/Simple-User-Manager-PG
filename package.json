@@ -4,14 +4,15 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "dotenv": "^8.0.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "pg": "^7.11.0",
     "socket.io": "^2.2.0",
     "uuid": "^3.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
