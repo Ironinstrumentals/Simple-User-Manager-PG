@@ -1,4 +1,5 @@
 # Instructions
+## Create .env
 create a .env file in the root folder that contains
 ```PORT=3000``` and ```DATABASE_URL=insert your postgres url```
 ## Create a Database
