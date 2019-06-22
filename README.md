@@ -1,4 +1,6 @@
 # Instructions
+## Install Dependancies
+type ```npm i --save-dev``` in the terminal/console.
 ## Create .env
 create a .env file in the root folder that contains
 ```PORT=3000``` and ```DATABASE_URL=insert your postgres url```
