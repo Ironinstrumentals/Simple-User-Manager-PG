@@ -7,4 +7,4 @@ create a postgres database.
 ## Create a datatable
 ```CREATE TABLE users(ID SERIAL PRIMARY KEY, userid VARCHAR(255) NOT NULL, email VARCHAR(100) NOT NULL, firstname VARCHAR(100) NOT NULL, lastname VARCHAR(100) NOT NULL, age integer NOT NULL);```
 # Start
-run ```npm run start_local``` in the terminal/console.
+type ```npm run start_local``` in the terminal/console.
